@@ -1,0 +1,155 @@
+.campos{
+      background-color:#FFFFFF; 
+      border: 1px solid #666666; 
+      color: #000000;
+	    font-size: 10px;
+	    width		  : 85%;
+	    font-family	  : Verdana, Arial,sans-serif;
+	    text-transform: uppercase;
+
+}
+
+.campos2{
+      background-color:#FFFFFF; 
+      border: 1px solid #666666; 
+      color: #000000;
+	    font-size: 10px;
+	    width		  : 65%;
+	    font-family	  : Verdana, Arial,sans-serif;
+	    text-transform: uppercase;
+
+}
+
+.campos3{
+      background-color:#FFFFFF; 
+      border: 1px solid #666666; 
+      color: #000000;
+	    font-size: 10px;
+	    width		  : 35%;
+	    font-family	  : Verdana, Arial,sans-serif;
+	    text-transform: uppercase;
+
+}
+
+.campos4{
+      background-color:#FFFFFF; 
+      border: 1px solid #666666; 
+      color: #000000;
+	    font-size: 10px;
+	    width		  : 45%;
+	    font-family	  : Verdana, Arial,sans-serif;
+	    text-transform: uppercase;
+
+}
+
+.texto{
+	font-family: Verdana;
+	font-size: 10px;
+	color:  #000000;
+	font-weight: bold;	
+}
+.texto2{
+	font-family: Verdana;
+	font-size: 11px;
+	color:  #000000;
+	font-weight: bold;	
+}
+.texto3{
+	font-family: Verdana;
+	font-size: 12px;
+	color:  #000000;
+	font-weight: ;	
+}
+#formu{   
+   width:50%
+   text-align: center;
+}
+
+#marca {
+	font-family: Verdana;
+	font-size: 10px;
+	color:  #000000;
+	background-position: center;
+}
+.lineaDatos1  {
+  border: 1px solid transparent;
+	font-family: 'Helvetica Neue',Helvetica,Arial,'lucida grande',tahoma,verdana,arial,sans-serif;
+	font-size: 12px;
+	color:  #000000;
+	background-position: center;
+}
+table tr.lineaDatos1:hover td{
+	color : #FFFFFF;
+	cursor: pointer;
+	background-color: #669966;
+	background-position: center;	
+}
+.lineaDatos2 {
+	border: 1px solid transparent;
+	font-family: 'Helvetica Neue',Helvetica,Arial,'lucida grande',tahoma,verdana,arial,sans-serif;
+	font-size: 12px;
+	font-weight: bold;	
+	color:   #000000;
+	background-color: ;
+}
+
+.lineaDatos3 {
+	border: 1px solid transparent;
+	font-family: 'Helvetica Neue',Helvetica,Arial,'lucida grande',tahoma,verdana,arial,sans-serif;
+	font-size: 14px;
+	font-weight: bold;	
+	color:   #F1F1F1;
+  background-image: radial-gradient( circle farthest-corner at 20% 30%,  rgba(83,151,63,1) 10%, rgba(104,200,76,1) 100% );
+}
+
+#btn{
+	font-family: Verdana;
+	font-size: 10px;
+	color: #3C475B;
+	width:10%;
+	background-color: #C8D0CE;
+	font-weight: ;
+	text-align: center;
+}
+#btn2{
+	font-family: Verdana;
+	font-size: 10px;
+	color: #3C475B;
+	width:15%;
+	background-color: #C8D0CE;
+	font-weight: ;
+	text-align: center;
+}
+
+input[type=button] {
+    background-color: #3A4B7B;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+    background-color: #3A4B7B;
+}
+
+input[type=button]:hover {
+    background-color: #3A4B7B;
+}
+
+img.alineadoTextoImagenArriba{
+  vertical-align: text-top;  
+}
+img.alineadoTextoImagenCentro{
+  vertical-align: middle;
+  /* Ojo vertical-align: text-middle no existe*/
+}
+img.alineadoTextoImagenAbajo{
+  vertical-align: text-bottom;  
+}
+
+
+
+

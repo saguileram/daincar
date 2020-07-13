@@ -1,0 +1,218 @@
+body {
+	background: #fafafa url();
+	color: #444;
+	font-family: 'Helvetica Neue',Helvetica,Arial,'lucida grande',tahoma,verdana,arial,sans-serif; 
+	text-shadow: 0;
+}
+
+strong {
+	font-weight: bold; 
+}
+
+em {
+	font-style: italic; 
+}
+
+table {
+	background: #FFFFFF;
+	border-collapse: separate;
+	box-shadow: inset 0;
+	font-size: 12px;
+	line-height: 24px;
+	margin: 20px auto;
+	text-align: center;
+	width: auto;
+}	
+
+th {
+
+  background-color: #669966;
+
+	box-shadow: inset 0 1px 0 #999;
+	color: #FFFFFF;
+  font-weight: bold;
+	padding: 10px 15px;
+	position: relative;
+	text-shadow: 0 ;
+text-align: center;	
+font-size: 12px;
+}
+
+th:after {
+	background:;
+	content: '';
+	display: block;
+	height: 25%;
+	left: 0;
+	margin: 1px 0 0 0;
+	position: absolute;
+	top: 25%;
+	width: 100%;
+}
+
+th:first-child {
+	border-left: 1px solid #777;	
+	box-shadow: inset 1px 1px 0 #999;
+}
+
+th:last-child {
+	box-shadow: inset -1px 1px 0 #999;
+}
+
+td {
+	border-right: 1px solid #fff;
+	border-left: 1px solid #e8e8e8;
+	border-top: 1px solid #fff;
+	border-bottom: 1px solid #e8e8e8;
+	padding: 10px 15px;
+	position: relative;
+	transition: all 300ms;
+}
+
+td:first-child {
+	box-shadow: inset 1px 0 0 #fff;
+}	
+
+td:last-child {
+	border-right: 1px solid #e8e8e8;
+	box-shadow: inset -1px 0 0 #fff;
+}	
+
+tr {
+	background: url();	
+}
+
+tr:nth-child(odd) td {
+	background: #f1f1f1 url();	
+}
+
+tr:last-of-type td {
+	box-shadow: inset 0 -1px 0 #fff; 
+}
+
+tr:last-of-type td:first-child {
+	box-shadow: inset 1px -1px 0 #fff;
+}	
+
+tr:last-of-type td:last-child {
+	box-shadow: inset -1px -1px 0 #fff;
+}	
+
+
+table tr:hover td{
+	color : #F1F1F1;
+	cursor: pointer;
+	background-color: #3C3C3C;
+	background-position: center;	
+}
+
+div.form_contact input[type="button"]{
+    width: 160px;
+	background: #669966;
+	padding: 10px;
+	border: none;
+	border-radius: 30px;
+  align-self: flex-end;
+  color: #FFFFFF;
+	font-family: 'Helvetica Neue',Helvetica,Arial,'lucida grande',tahoma,verdana,arial,sans-serif; 
+	font-size: 14px;
+	font-weight: 600;
+	cursor: pointer;
+	margin: 20px 0 0 1110px;
+
+	
+}
+
+div.form_contact input[type="button"]:hover{
+    color : #F1F1F1;
+	cursor: pointer;
+	background-color: #3C3C3C;
+	background-position: center;
+
+}
+
+.texto{
+	font-family: 'Helvetica Neue',Helvetica,Arial,'lucida grande',tahoma,verdana,arial,sans-serif; 
+	color:   #3C3C3C;
+	font-weight: bold;	
+	font-size: 20px;
+	text-align: left;
+	margin: 20px 0 0 0px;
+}
+
+#footer{
+  position:fixed;
+  left:0px;
+  bottom:0px;
+  height:20px;
+  width:100%;
+  font-family: 'Helvetica Neue',Helvetica,Arial,'lucida grande',tahoma,verdana,arial,sans-serif; 
+  background:#3C3C3C;
+  color : #F1F1F1;
+  text-align: center;	
+  font-size: 12px;
+  padding: 10px 15px;
+  vertical-align: middle;
+}
+
+hr {
+  background-color: #3C3C3C;
+  margin-left: 16%;
+  margin-right: 16%;
+}
+
+.campos{
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-family: 'Helvetica Neue',Helvetica,Arial,'lucida grande',tahoma,verdana,arial,sans-serif; 
+	color: #5A5A5A;
+	font-size: 14px;
+	font-weight: 400;
+	text-transform: uppercase;
+
+}
+
+img.alineadoTextoImagenAbajo{
+  vertical-align: text-bottom;  
+}
+
+.contenido1 {
+        line-height: 200px;
+        text-align: center; /* requerido para alineación horizontal */
+}
+
+.contenido2 {
+        line-height: 1;
+        font-family: 'Helvetica Neue',Helvetica,Arial,'lucida grande',tahoma,verdana,arial,sans-serif; 
+        font-size: 14px; 
+        display: inline-block;
+        vertical-align: middle;
+        text-align: left; /* requerido para volver a alinear texto izquierda */
+        width: 12%;
+        text-align: center;
+        color : #232B37;
+        font-weight: ;
+}
+
+a.nounderline:link
+{
+text-decoration:none;
+color: #232B37;
+font-weight: bold;
+}
+
+a:visited {
+	text-decoration:none;
+color: #232B37;
+font-weight: bold;
+	}
+	
+
+.texto{
+	font-family: 'Helvetica Neue',Helvetica,Arial,'lucida grande',tahoma,verdana,arial,sans-serif; 
+	font-size: 10px;
+	color : #F1F1F1;
+	font-weight: bold;	
+}
+
